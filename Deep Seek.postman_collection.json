@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "32790c58-893f-4224-9fc5-614db2504e38",
+		"name": "Deep Seek",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40595703"
+	},
+	"item": [
+		{
+			"name": "deep Seek",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Question\":\"Hi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/deepseek",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"deepseek"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
